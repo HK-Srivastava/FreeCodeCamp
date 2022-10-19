@@ -1,3 +1,30 @@
+body{
+    font-family: sans-serif;
+    display: flex;
+    background-color: #ffffff;
+}
+nav,main{
+    height:100vh;
+    border:1px solid grey;
+}
+main{
+    width:80vw;
+}
+nav{
+    width:20vw;
+}
+nav>*{
+    display: block;
+    width:100%;
+    min-height: 2em;
+    text-align: center;
+    
+    border: 1px solid grey;
+}
+header{
+    font-size: 2em;
+}
+
 @media (max-width: 768px) {
     
 }
